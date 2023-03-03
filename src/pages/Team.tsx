@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme } from "@mui/material";
-import { DataGrid, GridRenderCellParams } from "@mui/x-data-grid";
+import { DataGrid, GridColDef, GridRenderCellParams } from "@mui/x-data-grid";
 import { tokens } from "../theme";
 import { mockDataTeam } from "../data/mockData";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
@@ -11,7 +11,7 @@ export function Team() {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
-  const columns: any = [
+  const columns: GridColDef[] = [
     { field: "id", headerName: "ID" },
     {
       field: "name",
