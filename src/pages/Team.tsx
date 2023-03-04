@@ -40,9 +40,7 @@ export function Team() {
       field: "accessLevel",
       headerName: "Access Level",
       flex: 1,
-      renderCell: ({
-        row: { access },
-      }: GridRenderCellParams<{ row: { access: string } }>) => {
+      renderCell: ({ row: { access } }: GridRenderCellParams) => {
         const backgroundColor =
           access === "admin"
             ? colors.greenAccent[600]
@@ -54,7 +52,7 @@ export function Team() {
           <Box
             width="60%"
             m="0 auto"
-            p="5px"
+            p="8px"
             display="flex"
             justifyContent="center"
             borderRadius="4px"
@@ -78,7 +76,7 @@ export function Team() {
     <Box m="32px">
       <Header title="TEAM" subtitle="Managing the Team Members" />
       <Box
-        m="40px 0 0 0"
+        m="32px 0 0 0"
         height="75vh"
         sx={{
           "& .MuiDataGrid-root": {
