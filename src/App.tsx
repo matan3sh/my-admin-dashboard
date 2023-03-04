@@ -6,16 +6,16 @@ import { Topbar } from "./components/common/Topbar";
 import { Sidebar } from "./components/common/Sidebar/Sidebar";
 
 import { Dashboard } from "./pages/Dashboard";
-import { Team } from "./pages/Team";
-import { Invoices } from "./pages/Invoices";
-import { Contacts } from "./pages/Contacts";
-import { Bar } from "./pages/Bar";
-import { Form } from "./pages/Form";
-import { Line } from "./pages/Line";
-import { Pie } from "./pages/Pie";
-import { Faq } from "./pages/Faq";
-import { Geography } from "./pages/Geography";
-import { Calendar } from "./pages/Calendar";
+import { Team } from "./pages/data/Team";
+import { Invoices } from "./pages/data/Invoices";
+import { Contacts } from "./pages/data/Contacts";
+import { Bar } from "./pages/charts/Bar";
+import { Form } from "./pages/settings/Form";
+import { Line } from "./pages/charts/Line";
+import { Pie } from "./pages/charts/Pie";
+import { Faq } from "./pages/settings/Faq";
+import { Geography } from "./pages/charts/Geography";
+import { Calendar } from "./pages/settings/Calendar";
 
 function App() {
   const [theme, colorMode] = useMode();
