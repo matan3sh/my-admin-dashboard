@@ -65,7 +65,7 @@ export function Sidebar() {
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  Momentix
+                  Admin Panel
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
