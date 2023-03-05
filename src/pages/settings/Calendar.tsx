@@ -73,7 +73,7 @@ export function Calendar() {
         <Box
           flex="1 1 20%"
           sx={{ backgroundColor: colors.primary[400] }}
-          p="15px"
+          p="16px"
           borderRadius="4px"
         >
           <Typography variant="h5">Events</Typography>
