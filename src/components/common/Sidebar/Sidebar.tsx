@@ -53,7 +53,7 @@ export function Sidebar() {
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
-              margin: "10px 0 20px 0",
+              margin: "8px 0 16px 0",
               color: colors.grey[100],
             }}
           >
@@ -75,7 +75,7 @@ export function Sidebar() {
           </MenuItem>
 
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="16px">
               <Box display="flex" justifyContent="center" alignItems="center">
                 <img
                   alt="profile-user"
