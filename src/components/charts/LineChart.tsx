@@ -66,7 +66,6 @@ export function LineChart({
       axisTop={null}
       axisRight={null}
       axisBottom={{
-        // orient: "bottom",
         tickSize: 0,
         tickPadding: 5,
         tickRotation: 0,
@@ -75,7 +74,6 @@ export function LineChart({
         legendPosition: "middle",
       }}
       axisLeft={{
-        // orient: "left",
         tickValues: 5, // added
         tickSize: 3,
         tickPadding: 5,
